@@ -6,7 +6,7 @@ const DocAppointment = () => {
   return (
     <div>
       <div
-        class="hero p-12 mt-[100px] "
+        class="hero px-12 mt-[100px] "
         style={{ backgroundImage: `url(${appointment})` }}
       >
         <div class="flex items-center flex-col lg:flex-row-reverse">

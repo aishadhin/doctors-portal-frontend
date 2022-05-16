@@ -7,7 +7,6 @@ import About from './Pages/About/About';
 import Appointment from './Pages/Appointment/Appointment';
 import Reviews from './Pages/Reviews/Reviews';
 import LogIn from './Pages/LogIn/LogIn';
-import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/reviews" element={<Reviews/>} />
         <Route path="/login" element={<LogIn/>} />
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }

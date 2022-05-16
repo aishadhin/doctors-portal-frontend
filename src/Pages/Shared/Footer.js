@@ -1,10 +1,13 @@
 import React from "react";
-import bg from "../../../src/assets/images/bg.png"
+import bg from "../../../src/assets/images/bg.png";
 
 const Footer = () => {
   return (
     <div>
-      <footer style={{backgroundImage: `url(${bg})`}} class="text-accent footer justify-around p-10 text-neutral-content">
+      <footer
+        style={{ backgroundImage: `url(${bg})` }}
+        class="text-[#3A4256] footer justify-around p-10 text-neutral-content"
+      >
         <div>
           <span class="footer-title">Services</span>
           <a class="link link-hover">Emergency Checkup</a>
