@@ -42,21 +42,21 @@ const Services = () => {
           <Service key={service._id} service={service}></Service>
         ))}
       </div>
-      <div class="hero-content justify-between px-12 flex-col lg:flex-row-reverse gap-x-32">
-        <div class="hero-content flex-col lg:flex-row">
+      <div className="hero-content justify-between px-12 flex-col lg:flex-row-reverse gap-x-32">
+        <div className="hero-content flex-col lg:flex-row">
           <img
             src={treatment}
-            class="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-sm rounded-lg shadow-2xl"
             alt=""
           />
           <div className="md:w-1/2 lg:w-1/2">
-            <h1 class="text-5xl font-bold">Box Office News!</h1>
-            <p class="py-6">
+            <h1 className="text-5xl font-bold">Box Office News!</h1>
+            <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button class="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
+            <button className="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
           </div>
         </div>
       </div>

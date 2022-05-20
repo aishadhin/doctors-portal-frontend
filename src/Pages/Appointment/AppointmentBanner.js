@@ -7,9 +7,9 @@ import bg from "../../../src/assets/images/bg.png";
 const AppointmentBanner = ({date , setDate}) => {
 
   return (
-    <div class="hero min-h-screen" style={{backgroundImage: `url(${bg})`}}>
-      <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src={chair} class="max-w-sm rounded-lg shadow-2xl" alt="" />
+    <div className="hero min-h-screen" style={{backgroundImage: `url(${bg})`}}>
+      <div className="hero-content flex-col lg:flex-row-reverse">
+        <img src={chair} className="max-w-sm rounded-lg shadow-2xl" alt="" />
         <div>
           <DayPicker mode="single" selected={date} onSelect={setDate} />
           
